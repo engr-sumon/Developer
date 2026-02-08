@@ -34,6 +34,8 @@
 
 }
 
+
+
 .navbar button{
     color: rgba(13, 19, 33, 1);
     font-size: 20px;
@@ -67,6 +69,17 @@
     width: 200px;
 }
 
+
+.banner h1{
+    color: #1c1c1d;
+    font-size: 48px;
+}
+
+.banner p{
+    color: #494949;
+    font-size: 16px;
+}
+
 .banner button{
     font-size: 20px;
     font: weight 600px;
@@ -74,4 +87,78 @@
     background-color: black;
     padding: 10px 20px;
     border-radius: 5px;
+    cursor: pointer;
 }
+
+
+/* development section design */
+
+
+
+.development-section{
+    background-color: rgb(243, 244, 245);
+    width: 80%;
+    padding: 24px 100px;
+    margin: 50px auto;
+    border-radius: 10px;
+    padding: ;
+}
+
+.part-1{
+
+
+text-align: center;
+
+
+}
+
+.part-1 h1{
+    font-size: 32px;
+    color: #1c1c1d;
+    padding: 24px;
+
+}
+
+.part-1 p{
+   
+    color: #494949;
+    font-size: 16px;
+
+}
+
+/* part-2 design */
+
+.part-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 97px auto;
+    
+    background-color: white;
+    padding: 20px 50px;
+    border-radius: 10px;
+    
+}
+
+.part-2 h1{
+
+    font-size: 24px;
+    color: #0D1321;
+
+}
+
+.part-2 p{
+    font-size: 16px;
+    color: #494949;
+    padding: 20px 0px;
+}
+
+.part-2 button{
+    font-size: 20px;
+    color: rgb(59, 58, 58);
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
