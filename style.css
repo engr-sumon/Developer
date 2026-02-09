@@ -162,3 +162,196 @@ text-align: center;
     cursor: pointer;
 }
 
+.inspire{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+.inspire h1{
+
+    font-size: 32px;
+    color: #0D1321;
+
+}
+
+.inspire p{
+    font-size: 16px;
+    color: #494949;
+    padding: 20px 0px;
+}
+
+.target-1{
+  
+    width: 80%;
+    margin: 0px auto;
+    padding: 50px 0px;
+}
+
+
+
+.target-1>h1{
+
+    font-size: 32px;
+    color: #0D1321;
+    text-align: center;
+
+}
+
+.target-1> p{
+    font-size: 16px;
+    color: #494949;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.target-1> div{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 15px 0px;
+ 
+    
+}
+
+.target-1 div div{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.target-1 div div h1{
+
+    font-size: 24px;
+    font-weight: 800px;
+    padding: 10px 0px;
+
+}
+
+.target-1 div div p{
+    font-size: 16px;
+    color: #494949;
+}
+
+.target-1 div div a{
+    color: black;
+    padding: 15px 0px;
+    display: block;
+}
+
+/* target-2 design */
+
+
+.target-2{
+    width: 80%;
+    margin: 0px auto;
+}
+
+.target-2>h1{
+    text-align: center;
+}
+.target-2>p{
+    text-align: center;
+    padding: 16px;
+    color: gray;
+}
+
+.target-2> div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.target-2 div div h1 {
+    font-size: 24px;
+    color: #302f2f;
+
+}
+
+
+.target-2 div div img {
+    width: 100px;
+
+}
+.target-2 div div p {
+    font-size: 16px;
+    color: gray;
+    padding: 10px 0px;
+
+}
+
+.target-2 div div a {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    padding: 10px 0px;
+
+}
+
+
+/* footer banner design */
+
+.f-banner{
+    width: 80%;
+    margin: 50px auto;
+    height:500px;
+    background-image: 
+  linear-gradient(rgba(13, 19, 33, 0.3)),url("assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+   
+}
+.f-banner h1{
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.f-banner p{
+    font-size: 16px;
+    color: #ffffff;
+    
+}
+.f-banner input{
+    
+    width: 350px;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    
+}
+
+.f-banner label{
+    
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: white;
+    font-size: 14px;
+    cursor: pointer;
+    
+}
+
+
+footer{
+    background-color: #e7e5e5;
+    display: flex;
+    padding: 20px 0px;
+    justify-content: space-evenly;
+}
+
